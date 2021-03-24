@@ -16,7 +16,7 @@ export function Home() {
 	];
 	return (
 		<div>
-			<MyNavbar menu={links} />
+			<MyNavbar menu={links} brand="Bootstrap" />
 			<MyJumbo />
 			<MyFooter />
 		</div>

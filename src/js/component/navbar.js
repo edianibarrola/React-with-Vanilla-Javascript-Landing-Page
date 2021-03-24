@@ -13,7 +13,7 @@ export function MyNavbar(props) {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a className="navbar-brand" href="#">
-				Navbar
+				{props.brand}
 			</a>
 			<button
 				className="navbar-toggler"
