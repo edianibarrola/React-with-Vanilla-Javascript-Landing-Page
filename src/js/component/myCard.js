@@ -6,7 +6,7 @@ export function MyCard(props) {
 	console.log("props --" + props.cardInfo[0].title);
 	const renderCard = props.cardInfo.map((item, index) => {
 		return (
-			<div className="col" key={index}>
+			<div className="col-md col-sm-12" key={index}>
 				<div className="card mx-auto">
 					<img
 						src="https://placehold.it/500x325.jpg"
